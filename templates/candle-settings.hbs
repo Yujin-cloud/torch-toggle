@@ -1,0 +1,69 @@
+<form class="flexcol">
+  <div class="form-group">
+    <label for="name">Название предмета</label>
+    <input type="text" name="name" value="{{name}}">
+  </div>
+
+  <div class="form-group">
+    <label for="animationType">Тип анимации</label>
+    <select name="animationType">
+      {{#select animationType}}
+        {{#each animationChoices}}
+          <option value="{{@key}}">{{this}}</option>
+        {{/each}}
+      {{/select}}
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="speed">Скорость анимации</label>
+    <input type="number" name="speed" value="{{speed}}" min="1" max="10" step="1">
+  </div>
+
+  <div class="form-group">
+    <label for="intensity">Интенсивность анимации</label>
+    <input type="number" name="intensity" value="{{intensity}}" min="1" max="10" step="1">
+  </div>
+
+  <div class="form-group">
+    <label for="dim">Тусклый свет</label>
+    <input type="number" name="dim" value="{{dim}}" min="0" step="5">
+  </div>
+
+  <div class="form-group">
+    <label for="bright">Яркий свет</label>
+    <input type="number" name="bright" value="{{bright}}" min="0" step="5">
+  </div>
+
+  <div class="form-group">
+    <label for="color">Цвет света</label>
+    <input type="color" name="color" value="{{color}}">
+  </div>
+
+  <div class="form-group">
+    <label for="alpha">Прозрачность</label>
+    <input type="number" name="alpha" value="{{alpha}}" min="0" max="1" step="0.05">
+  </div>
+
+  <div class="form-group">
+    <label for="luminosity">Яркость</label>
+    <input type="number" name="luminosity" value="{{luminosity}}" min="-1" max="1" step="0.05">
+  </div>
+
+  <div class="form-group">
+    <label for="attenuation">Затухание</label>
+    <input type="number" name="attenuation" value="{{attenuation}}" min="0" max="1" step="0.05">
+  </div>
+
+  <div class="form-group">
+    <label for="contrast">Контрастность</label>
+    <input type="number" name="contrast" value="{{contrast}}" min="-1" max="1" step="0.05">
+  </div>
+
+  <div class="form-group">
+    <label for="shadows">Тени</label>
+    <input type="number" name="shadows" value="{{shadows}}" min="0" max="1" step="0.05">
+  </div>
+
+  <button type="submit"><i class="fas fa-save"></i> Сохранить</button>
+</form>

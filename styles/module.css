@@ -1,0 +1,54 @@
+/* styles/module.css */
+.torch-settings-sheet form, .candle-settings-sheet form, .lantern-settings-sheet form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.torch-settings-sheet .form-group, .candle-settings-sheet .form-group, .lantern-settings-sheet .form-group {
+  display: flex;
+  flex-direction: row; /* row для выравнивания лейбла и поля в строку */
+  align-items: center;
+  gap: 10px;
+}
+
+.torch-settings-sheet .form-group label, .candle-settings-sheet .form-group label, .lantern-settings-sheet .form-group label {
+  width: 150px; /* Фиксированная ширина лейблов для выравнивания полей */
+  text-align: right;
+  font-weight: bold;
+}
+
+.torch-settings-sheet input, .torch-settings-sheet select, .candle-settings-sheet input, .candle-settings-sheet select, .lantern-settings-sheet input, .lantern-settings-sheet select {
+  width: 150px; /* Уменьшили ширину полей ввода */
+  height: 35px; /* Сделали высоту чуть больше для кнопок ввода */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.torch-settings-sheet input[type="color"], .candle-settings-sheet input[type="color"], .lantern-settings-sheet input[type="color"] {
+  width: 150px;
+  height: 40px; /* Оставили большую высоту для поля цвета */
+  padding: 2px;
+}
+
+.torch-settings-sheet button, .candle-settings-sheet button, .lantern-settings-sheet button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  align-self: center;
+}
+
+.torch-settings-sheet button:hover, .candle-settings-sheet button:hover, .lantern-settings-sheet button:hover {
+  background-color: #0056b3;
+}
