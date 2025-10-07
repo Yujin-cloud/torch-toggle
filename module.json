@@ -7,11 +7,11 @@
     {
       "name": "Yujin",
       "url": "https://github.com/Yujin-cloud",
-      "email": "sh.ievgen@gmail.com"
+      "email": "yujinaniz1984@gmail.com"
     }
   ],
   "compatibility": {
-    "minimum": "12",
+    "minimum": "10",
     "verified": "13"
   },
   "esmodules": ["scripts/main.js"],
@@ -23,9 +23,9 @@
   ],
   "url": "https://github.com/Yujin-cloud/torch-toggle",
   "manifest": "https://raw.githubusercontent.com/Yujin-cloud/torch-toggle/main/module.json",
-  "download": "https://github.com/Yujin-cloud/torch-toggle/releases/download/v1.0.0/torch-toggle.zip",
+  "download": "https://github.com/Yujin-cloud/torch-toggle/releases/download/v1.0.0/torch-toggle-v1.0.0.zip",
   "license": "MIT",
   "readme": "README.md",
-  "bugs": "https://github.com/your-username/torch-toggle/issues",
+  "bugs": "https://github.com/Yujin-cloud/torch-toggle/issues",
   "changelog": "CHANGELOG.md"
 }
