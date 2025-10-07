@@ -24,7 +24,7 @@ Torch Toggle — это модуль для Foundry Virtual Tabletop, котор
 Через ZIP-архив
 
 Перейдите в раздел Releases на GitHub.
-Скачайте файл torch-toggle-v1.0.0.zip для последней версии.
+Скачайте файл [torch-toggle-v1.0.0.zip](https://github.com/Yujin-cloud/torch-toggle/releases/download/v1.0.0/torch-toggle-v1.0.0.zip) для последней версии.
 Распакуйте архив в папку Data/modules/ вашей установки Foundry VTT.
 Перезапустите Foundry VTT и активируйте модуль в Управлении модулями.
 
